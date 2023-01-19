@@ -1,0 +1,8 @@
+div .qr-code{
+    display: none;
+}
+
+.container.active .qr-code{
+    display: block;
+    transition: height 0.2s ease;
+}
